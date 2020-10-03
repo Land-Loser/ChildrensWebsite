@@ -1,0 +1,287 @@
+/*Designed By Yonghao Wu*/
+
+body {
+  background-image: url(../images/background7.jpg);
+  background-position: bottom;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+}
+
+#big-container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  height: 75px;
+  background-color: rgba(58, 163, 173, 0.9);
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+#header-image {
+  margin-left: 30px;
+  margin-top: 7px;
+}
+
+nav {
+  height: 100px;
+  background-color: rgba(58, 163, 173, 0.9);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.nav-box {
+  width: 190px;
+  height: 50px;
+  margin: auto;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  background: #ffa94d; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffa94d 3%, #ff7a0d 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffa94d 3%,#ff7a0d 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffa94d 3%,#ff7a0d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa94d', endColorstr='#ff7a0d',GradientType=0 ); /* IE6-9 */
+  text-align: center;
+  font-size: 14pt;
+  font-weight: bold;
+  font-family: 'Hi Melody', cursive;
+}
+
+.main-nav {
+  text-decoration: none;
+}
+
+.navP {
+  color: black;
+  transition: color 0.5s linear;
+}
+
+.navP:hover {
+  color: purple;
+}
+
+a {
+  transition: color 0.5s linear;
+  text-decoration: none;
+}
+
+a:link {
+  color: darkorange;
+}
+
+a:visited {
+  color: #000000;
+}
+
+a:hover {
+  color: purple;
+}
+
+a:active {
+  color: red;
+}
+
+#section1 {
+  height: 1020px;
+  background-color: rgba(58, 163, 173, 0.9);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  color: lightyellow;
+  font-family: sans-serif;
+}
+
+.mainHeading {
+  text-align: center;
+  color: darkorange;
+  font-size: 20pt;
+}
+
+#section1 p::first-letter {
+  font-size: 30px;
+  color: darkorange;
+}
+
+span {
+  font-style: italic;
+}
+
+#section1Ul {
+  font-weight: bold;
+  color:
+}
+
+#section1H2 {
+  padding-left: 20px;
+  color: darkorange;
+}
+
+.imageBox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+figcaption {
+  text-align: center;
+  font-weight: bold;
+  color: darkorange;
+}
+
+#figure2 {
+  display: none;
+}
+
+#figure3 {
+  display: none;
+}
+
+#section2 {
+  height: 1000px;
+  background-color: rgba(58, 163, 173, 0.9);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  color: lightyellow;
+  font-family: sans-serif;
+}
+
+#section2 p::first-letter {
+  font-size: 30px;
+  color: darkorange;
+}
+
+.bottomNav {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.bottomNavBox {
+  color: darkorange;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 12pt;
+  border: 2px solid darkorange;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#section3 {
+  height: 1000px;
+  background-color: rgba(58, 163, 173, 0.9);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  color: lightyellow;
+  font-family: sans-serif;
+}
+
+#section3 p::first-letter {
+  font-size: 30px;
+  color: darkorange;
+}
+
+#game {
+  height: 650px;
+background-color: rgba(58, 163, 173, 0.9);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+
+#game.h2 {
+
+}
+
+fieldset {
+  border-radius: 5px;
+}
+
+legend {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,224,0,0.7805497198879552) 52%, rgba(0,212,255,1) 100%);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#formImg {
+  float: right;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+
+.formItem {
+  color: darkorange;
+  font-weight: bold;
+}
+
+button {
+  background-color: darkorange;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#result {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid gray;
+  margin-top: 30px;
+  height: 100px;
+  border-radius: 5px;
+  width: 934px;
+  margin-left: 2px;
+}
+
+#score {
+  width: 200px;
+  font-weight: bold;
+}
+
+#scoreP {
+  color: darkorange;
+  font-weight: bold;
+}
+
+#comment {
+  width: 600px;
+  font-weight: bold;
+}
+
+#commentP {
+  color: darkorange;
+  font-weight: bold;
+}
+
+footer {
+  height: 100px;
+  background-color: rgba(58, 163, 173, 0.9);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#footerNav {
+  display: flex;
+  justify-content: space-evenly;
+  color: darkorange;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+.footerNavBox {
+  padding-top: 15px;
+  width: 300px;
+  text-align: center;
+  height: 30px;
+}
+
+#copyright-p {
+  text-align: center;
+}
